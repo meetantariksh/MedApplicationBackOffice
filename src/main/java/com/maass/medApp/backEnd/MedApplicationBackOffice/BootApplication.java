@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 @EnableAutoConfiguration
-public class BootAplication {
+public class BootApplication {
 	
 	@RequestMapping("/")
 	public String hello() {
@@ -19,7 +19,7 @@ public class BootAplication {
 	}
 	
 	public static void main (String args[]){
-		SpringApplication.run(BootAplication.class, args);
+		SpringApplication.run(BootApplication.class, args);
 	}
 	
 }
